@@ -28,7 +28,7 @@ A professional CV website built using **HTML & CSS** and hosted on **GitHub Page
 ---
 
 ## 🌍 Live Demo
-👉 **[View My CV Live](https://mohammadalbaba13.github.io/Mohamad-Albaba-CV/))**
+ My CV Live (https://mohammadalbaba13.github.io/Mohamad-Albaba-CV/))**
 
 ---
 
