@@ -32,6 +32,4 @@ A professional CV website built using **HTML & CSS** and hosted on **GitHub Page
 
 ---
 
-## 📬 Contact
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINK
-- GitHub: https://github.com/YOUR-USERNAME
+
