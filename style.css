@@ -1,0 +1,135 @@
+/* ========== Reset & Base ========== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 30px;
+    color: #333;
+}
+
+/* ========== CV Container ========== */
+.cv {
+    max-width: 850px;
+    background: #ffffff;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* ========== Header ========== */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/* Header Text */
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.header h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.header a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* ========== Sections ========== */
+section {
+    margin-bottom: 25px;
+}
+
+section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* ========== Skills ========== */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.skills li {
+    background: #eaeaea;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* ========== Experience Items ========== */
+.item h4 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.item span {
+    font-size: 13px;
+    color: #666;
+}
+
+.item ul {
+    margin-left: 20px;
+}
+
+.item ul li {
+    margin-bottom: 6px;
+}
+
+/* ========== Lists & Text ========== */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .cv {
+        padding: 25px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
